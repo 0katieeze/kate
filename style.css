@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap");
+@import "reset.css";
+@import "chat.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.open-page {
+  width: 310px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(239, 124, 42);
+  border-radius: 30px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.open-page-icon {
+  color: rgb(11, 109, 255);
+}
